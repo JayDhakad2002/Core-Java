@@ -10,7 +10,6 @@ public class TestIndexArray {
 			
 			System.out.println(i + "=" + a[i]);
 			//finding index of Array
-			
 		}
 		
 	}
