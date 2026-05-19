@@ -10,7 +10,7 @@ public class TestLocalDate {
 		
 		System.out.println("today's: " + now);
 		System.out.println("day of week: " + now.getDayOfWeek());
-		System.out.println("daybof month: " + now.getDayOfMonth());
+		System.out.println("day of month: " + now.getDayOfMonth());
 		System.out.println("month: " + now.getMonth());
 		System.out.println("day of year: " + now.getDayOfYear());
 		System.out.println("year: " + now.getYear());
