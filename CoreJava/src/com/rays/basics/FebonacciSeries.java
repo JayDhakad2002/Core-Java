@@ -7,14 +7,12 @@ public class FebonacciSeries {
 		 int b=1;
 		 int c;
 		 
-	for(int i=1;i<=10;i++) {
+	for(int i=1;i<=15;i++) {
 		c=a+b;
 		System.out.print(a+" ");
 				a=b;
 				b=c;
 	    }
-	
 	}
-
 }
    
