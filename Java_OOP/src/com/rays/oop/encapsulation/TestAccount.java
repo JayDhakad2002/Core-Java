@@ -8,12 +8,14 @@ public class TestAccount {
 		
 		a.setNumber("91110100009437");
 		a.setAccountType("saving");
-		a.setBalance(500.00);
+		a.setBalance(5000.00);
 		
 		System.out.println(a.getNumber());
 		System.out.println(a.getAccountType());
 		System.out.println(a.getBalance());
-		
+		a.deposit(500.00);
+		a.withdrawal(2500.00);
+		a.withdrawal(1000.00);
 	}
 
 }
