@@ -21,8 +21,10 @@ public class Rectangle extends Shape {
 		this.width = width;
 	}
 	
-	public void area() {
-		System.out.println("area of rectangle: " + (length+width));	
+	public double area () {
+		double area = length*width;
+		return area;
+		
 	}
 	
 }

@@ -34,12 +34,12 @@ public class TestShape {
 		Triangle t = new Triangle();
 
 		t.setBase(2);
-		t.setHight(2);
+		t.setHeight(2);
 		t.setColor("green");
 		t.setBorderWidth(1);
 
 		System.out.println("base: " + t.getBase());
-		System.out.println("hight: " + t.getHight());
+		System.out.println("hight: " + t.getHeight());
 		System.out.println("color: " + t.getColor());
 		System.out.println("borderWidth: " + t.getBorderWidth());
 		t.area();

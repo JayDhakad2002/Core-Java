@@ -4,7 +4,7 @@ public class Triangle extends Shape {
 	
 	
 	private int base;
-	private int hight;
+	private int height;
 	
 	public int getBase() {
 		return base;
@@ -14,16 +14,17 @@ public class Triangle extends Shape {
 		this.base = base;
 	}
 	
-	public int getHight() {
-		return hight;
+	public int getHeight() {
+		return height;
 	}
 	
-	public void setHight(int hight) {
-		this.hight = hight;
+	public void setHeight(int height) {
+		this.height = height;
 	}
 	
-	public void area() {
-		System.out.println((base*hight) / 2.0);
+	public double area(){
+		double area = base*height;
+		return area;
 	}
 	
-}
+ }

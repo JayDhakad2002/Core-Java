@@ -5,29 +5,29 @@ public class Account01 {
 	private String number;
 	private String accountType;
 	private double balance;
-
+	
 	public String getNumber() {
-	     return number;
-    }
+		return number;
+	}
 	
 	public void setNumber(String number) {
-		 this.number = number;
+		this.number = number;
 	}
 	
 	public String getAccountType() {
-		 return accountType;
+		return accountType;
 	}
 	
 	public void setAccountType(String accountType) {
-		 this.accountType = accountType;
+		this.accountType = accountType;
 	}
 	
 	public double getBalance() {
-		 return balance;
+		return balance;
 	}
 	
 	public void setBalance(double balance) {
-		 this.balance = balance;
+		this.balance = balance;
 	}
-
+	
 }
