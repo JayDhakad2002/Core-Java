@@ -30,4 +30,22 @@ public class AutoMobile {
     	this.make = make;
     }
     
+    public void brake() {
+    	
+    	if (speed == 0) {
+    	   System.out.println("car already stopped");
+    	}else {
+    		speed = speed +10;
+    	}
+    }
+    
+    public void acclerator() {
+    	
+    	if (speed == 400 || speed > 400) {
+    		System.out.println("speed limit is high please apply brake");
+    	}else {
+    		speed = speed + 10;
+    	}
+    }
+    
 }

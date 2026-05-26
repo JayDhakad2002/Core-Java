@@ -13,7 +13,9 @@ public class TestAccount01 {
 		System.out.println(a.getNumber());
 		System.out.println(a.getAccountType());
 		System.out.println(a.getBalance());
-	    
+		a.deposit(500.00);
+		a.withdrawal(700.00);
+		a.withdrawal(300.00);
 	}
 	
 }

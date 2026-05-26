@@ -6,7 +6,7 @@ public class TestAutoMobile01 {
 		
 		AutoMobile car = new AutoMobile();
 			
-	    car.setColor("Red");
+	    car.setColor("Black");
 	    car.setSpeed(110);
 	    car.setMake("Toyato");
 	    
@@ -14,6 +14,9 @@ public class TestAutoMobile01 {
 	    System.out.println(car.getSpeed());
 	    System.out.println(car.getMake());
 	   
+	    car.acclerator();
+	    
+	    System.out.println(car.getSpeed());
 	}
 
 }

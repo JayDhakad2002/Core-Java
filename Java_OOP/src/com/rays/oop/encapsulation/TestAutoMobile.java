@@ -7,12 +7,16 @@ public class TestAutoMobile {
 		AutoMobile car = new AutoMobile();
 		
 		car.setColor("Red");
-		car.setSpeed(90);
+		car.setSpeed(220);
 		car.setMake("toyota");
 		
 		System.out.println(car.getColor());
 		System.out.println(car.getSpeed());
 		System.out.println(car.getMake());
+		
+		car.acclerator();
+		
+		System.out.println(car.getSpeed());
 		
 	}
 
