@@ -1,6 +1,6 @@
 package com.rays.basics;
 
-public class finfIntFromArray {
+public class findIntFromArray {
 	
 	public static void main(String[] args) {
 		
