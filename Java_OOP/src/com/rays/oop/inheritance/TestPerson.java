@@ -49,5 +49,5 @@ public class TestPerson {
       System.out.println("Marks: " + s.getMarks());
       
 	}
-
+ 
 }
