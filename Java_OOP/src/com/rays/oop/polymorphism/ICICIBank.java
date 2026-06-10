@@ -8,7 +8,7 @@ public class ICICIBank extends Bank {
 	}
 	
 	@Override
-	public double interestRate() {
+	public double intersetRate() {
 		return 9.75;
 	}
 }

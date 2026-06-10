@@ -8,7 +8,7 @@ public class AxisBank extends Bank {
 	}
 	
 	@Override
-	public double interestRate() {
+	public double intersetRate() {
 		return 11.25;
 	}
 
