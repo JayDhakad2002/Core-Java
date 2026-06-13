@@ -9,8 +9,9 @@ public class TestArithmetic {
 		int c = a/b;
 		
 		System.out.println("div" + c);
+		System.out.println("Program Is Finish");
 		System.out.println("exception aagyi");
-	
+		
 	}
 
 }
