@@ -1,5 +1,6 @@
 package com.rays.collection.queue;
 
+import java.util.ArrayDeque;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -7,7 +8,7 @@ public class TestQueue {
 
 	public static void main(String[] args) {
 
-		Queue q = new PriorityQueue();
+		Queue q = new ArrayDeque();
 
 		q.add("Ram");
 		q.add(5);

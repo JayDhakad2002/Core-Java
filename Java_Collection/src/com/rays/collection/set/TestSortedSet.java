@@ -15,7 +15,7 @@ public class TestSortedSet {
 		s.add('c');
 		s.add('b');
 		s.add('a');
-
+		s.add(null);
 		System.out.println(s);
 
 	}

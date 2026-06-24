@@ -2,7 +2,7 @@ package com.rays.collection.list;
 
 import java.util.Stack;
 
-//lifo last in first our
+// lifo in first out
 public class TestStack {
 
 	public static void main(String[] args) {
